@@ -1,4 +1,4 @@
-# Sparked Paste
+# IndionicHost Paste
 
 Sparked Paste is a fork of the open-source project haste-server, modified to
 match the Sparked Host brand and with a couple different patches and improvements.

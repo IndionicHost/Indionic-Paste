@@ -1,13 +1,12 @@
 # IndionicHost Paste
 
-Sparked Paste is a fork of the open-source project haste-server, modified to
-match the Sparked Host brand and with a couple different patches and improvements.
+IndionicHost Paste is a fork of the open-source project haste-server, modified to
+match the IndionicHost Host brand and with a couple different patches and improvements.
 
 Major design objectives:
-
-* Be really pretty
-* Be really simple
-* Be easy to set up and use
+* Really clean.
+* Really simple.
+* Easy to use with Exotic panel
 
 Haste works really well with a little utility called
 [haste-client](https://github.com/seejohnrun/haste-client), allowing you
@@ -20,12 +19,15 @@ STDOUT.  Check the README there for more details and usages.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/SparkedHost/Sparked-Paste`
-2. Copy the config.example.json file to config.json: `cp config.sample.json config.json`
+1. Clone the repository: `git clone https://github.com/IndionicHost/Indionic-Paste.git`
+2. Copy the config.example.json file to config.json: `cp config.demo.json config.json`
+
 3. Explore the settings inside of config.json, but the defaults should be good.
+
 4. Run `npm install` to install all the required npm packages.
 5. Create the `hastes` directory: `mkdir hastes`
-6. `npm start` (you may specify an optional `<config-path>` as well)
+6. Install pm2 for node.js `npm install pm2 -g`
+7. Start pm2 server. `pm2 start server.js`
 
 Read the wiki for a more in-depth installation guide.
 

@@ -355,7 +355,7 @@ Here is a list of all the environment variables
 ## Author
 
 John Crepezzi <john.crepezzi@gmail.com>
-Raúl Molina <raul.m@sparkedhost.com>
+Anas Shaikh <itsanas1554@gmail.com>
 
 ### Other components:
 

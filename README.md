@@ -17,7 +17,13 @@ to do things like:
 which will output a URL to share containing the contents of `cat something`'s
 STDOUT.  Check the README there for more details and usages.
 
-## Installation
+## Automatic Installation
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/IndionicHost/Indionic-Paste/master/install.sh)
+```
+
+## Manual Installation
 
 1. Clone the repository: `git clone https://github.com/IndionicHost/Indionic-Paste.git`
 2. Copy the config.example.json file to config.json: `cp config.demo.json config.json`

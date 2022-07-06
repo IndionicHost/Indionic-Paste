@@ -1,8 +1,10 @@
-apt update -y && apt upgrade -y
+sudo apt update -y && sudo apt upgrade -y
 
 clean
 
 mkdir -p /var/www/
+
+sudo apt install git -y
 
 git clone https://github.com/IndionicHost/Indionic-Paste.git
 
